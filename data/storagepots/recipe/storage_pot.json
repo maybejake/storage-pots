@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "cbc",
+    "beb",
+    "cbc"
+  ],
+  "key": {
+    "c": "minecraft:chest",
+    "b": "minecraft:brick",
+    "e": "minecraft:ender_eye"
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "Storage Pot",
+      "minecraft:item_model": "minecraft:decorated_pot",
+      "minecraft:entity_data": {"id":"minecraft:item_frame","Invulnerable":true,"Invisible":true,"Silent":true,"Tags":["storagepots.storage_pot"]},
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:custom_data": {"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+    }
+  }
+}

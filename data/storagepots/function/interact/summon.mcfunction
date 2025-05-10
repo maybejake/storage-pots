@@ -1,0 +1,1 @@
+$summon minecraft:item ~ ~0.5 ~ {Item:{id:"$(id)",components:$(components),count:$(count)},Tags:["storagepots.output_item"],Motion:[$(strength1),0.2,$(strength2)]}

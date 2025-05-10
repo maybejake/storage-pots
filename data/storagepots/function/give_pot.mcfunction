@@ -1,0 +1,1 @@
+give @s minecraft:item_frame[minecraft:item_name="Storage Pot",minecraft:item_model="minecraft:decorated_pot",minecraft:entity_data={id:"minecraft:item_frame",Invulnerable:1b,Invisible:1b,Silent:1b,Tags:["storagepots.storage_pot"]},minecraft:enchantment_glint_override=true,minecraft:custom_data={"smithed":{"ignore":{"functionality":true,"crafting":true}}}]

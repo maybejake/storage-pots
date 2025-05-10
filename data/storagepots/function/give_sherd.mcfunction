@@ -1,0 +1,1 @@
+give @s minecraft:warped_fungus_on_a_stick[minecraft:item_name="Whispering Sherd",minecraft:item_model="skull_pottery_sherd",minecraft:enchantment_glint_override=true,minecraft:custom_data={"storagepots.sherd":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}}]
