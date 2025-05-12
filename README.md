@@ -1,6 +1,6 @@
 ![storage pots title](https://cdn.modrinth.com/data/cached_images/0b1c7ae387d30d2ba35873a528d725e73692fa23.png)
 ---
-### Storage Pots add a new vanilla-friendly storage method that can be used to store large quantities of items! A single storage pot can store up to 16384 items of a single type! (256 stacks)
+### Storage Pots adds a new vanilla-friendly storage method that can be used to store large quantities of items! A single storage pot can store up to 16384 items of a single type! (256 stacks)
 
 Items can be added to and removed from storage pots in many ways!
 - Right clicking on a pot with an item will place it inside
