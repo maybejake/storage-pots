@@ -1,2 +1,2 @@
-data modify entity @s item.components."minecraft:custom_data"."storagepots:contents" set value {id:"",count:0}
+data modify entity @s item.components."minecraft:bundle_contents" set value []
 data remove block ~ ~ ~ item

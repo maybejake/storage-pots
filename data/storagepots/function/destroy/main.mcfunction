@@ -6,6 +6,6 @@ execute store result storage storagepots:destroy strength2 double 0.000008 run r
 
 execute if score @s storagepots.total_item_count matches 0 run function storagepots:destroy/summon with storage storagepots:destroy
 execute if score @s storagepots.total_item_count matches 1.. run data modify storage storagepots:destroy item set from entity @s item
-execute if score @s storagepots.total_item_count matches 1.. store result storage storagepots:destroy item.components."minecraft:custom_data"."storagepots:contents".count int 1 run scoreboard players get @s storagepots.total_item_count
+execute if score @s storagepots.total_item_count matches 1.. store result storage storagepots:destroy item.components."minecraft:custom_data"."storagepots:count" int 1 run scoreboard players get @s storagepots.total_item_count
 execute if score @s storagepots.total_item_count matches 1.. run function storagepots:destroy/summon_filled with storage storagepots:destroy
 kill @s

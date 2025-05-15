@@ -1,4 +1,4 @@
-#block entry of storage pots
+#block entry of banned items
 execute if items entity @s contents item_frame[minecraft:custom_data~{"storagepots:pot":true}] run return fail
 execute if items entity @s contents *[minecraft:container,!minecraft:container=[]] run return fail
 execute if items entity @s contents *[minecraft:bundle_contents,!minecraft:bundle_contents=[]] run return fail
