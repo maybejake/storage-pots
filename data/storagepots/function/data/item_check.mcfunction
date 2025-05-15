@@ -1,3 +1,8 @@
+#block entry of storage pots
+execute if items entity @s contents item_frame[minecraft:custom_data~{"storagepots:pot":true}] run return fail
+execute if items entity @s contents *[minecraft:container,!minecraft:container=[]] run return fail
+execute if items entity @s contents *[minecraft:bundle_contents,!minecraft:bundle_contents=[]] run return fail
+
 #full from earlier in loop, stop
 execute if score $temp_count storagepots.dummy matches 16384.. run return fail
 

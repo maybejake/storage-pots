@@ -1,0 +1,2 @@
+function storagepots:interact/stack
+function storagepots:interact/spawn

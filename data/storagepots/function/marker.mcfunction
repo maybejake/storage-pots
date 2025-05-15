@@ -6,6 +6,10 @@ execute if entity @s[predicate=storagepots:tick5] run particle portal ~ ~0.7 ~ 0
 #pull data
 function storagepots:data/pull_data
 
+execute if data storage storagepots:temp pot_contents.components."minecraft:custom_data"."storagepots:pot" run return run function storagepots:reject_item
+execute if data storage storagepots:temp pot_contents.components."minecraft:container" run return run function storagepots:reject_item
+execute if data storage storagepots:temp pot_contents.components."minecraft:bundle_contents" run return run function storagepots:reject_item
+
 #check for item entities
 scoreboard players operation $temp_count storagepots.dummy = @s storagepots.total_item_count
 execute if score @s storagepots.total_item_count matches ..16383 positioned ~ ~0.7 ~ as @e[type=item,distance=..0.5,tag=!storagepots.output_item] run function storagepots:data/item_check
