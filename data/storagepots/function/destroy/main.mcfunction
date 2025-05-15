@@ -1,5 +1,5 @@
 kill @e[tag=storagepots.visual,distance=..0.5]
-execute as @e[type=item,tag=!storagepots.item,sort=nearest,limit=7,distance=..1] run function storagepots:destroy/items
+execute as @e[type=item,tag=!storagepots.item,sort=nearest,distance=..1] run function storagepots:destroy/items
 
 execute store result storage storagepots:destroy strength1 double 0.000008 run random value -10000..10000
 execute store result storage storagepots:destroy strength2 double 0.000008 run random value -10000..10000

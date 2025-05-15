@@ -13,5 +13,11 @@
     "tick": {
       "trigger": "minecraft:tick"
     }
+  },
+  "rewards": {
+    "recipes": [
+      "storagepots:whispering_sherd",
+      "storagepots:storage_pot"
+    ]
   }
 }
