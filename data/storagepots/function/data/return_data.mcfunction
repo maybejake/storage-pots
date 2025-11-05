@@ -1,3 +1,5 @@
+execute if data storage storagepots:temp pot_contents{id:""} run return run function storagepots:data/is_empty
+
 #copy pot item to marker
 data modify storage storagepots:temp marker_contents set from storage storagepots:temp pot_contents
 

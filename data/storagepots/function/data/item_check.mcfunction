@@ -2,6 +2,7 @@
 execute if items entity @s contents item_frame[minecraft:custom_data~{"storagepots:pot":true}] run return fail
 execute if items entity @s contents *[minecraft:container,!minecraft:container=[]] run return fail
 execute if items entity @s contents *[minecraft:bundle_contents,!minecraft:bundle_contents=[]] run return fail
+execute if items entity @s contents #storagepots:ignore run return fail
 
 #full from earlier in loop, stop
 execute if score $temp_count storagepots.dummy matches 16384.. run return fail
@@ -29,6 +30,9 @@ scoreboard players operation $count_check storagepots.dummy += @s storagepots.to
 
 #only play sounds once per tick, to avoid LOUD
 execute if score $insert_check storagepots.dummy matches 0 run function storagepots:data/insert_animation
+
+#item sucessfully added, mark as filled if not already
+execute if score $filled storagepots.dummy matches 0 run scoreboard players set $filled storagepots.dummy 1
 
 #can fit, add and kill
 execute if score $count_check storagepots.dummy matches ..16384 run scoreboard players operation $temp_count storagepots.dummy = $count_check storagepots.dummy

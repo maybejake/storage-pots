@@ -1,1 +1,0 @@
-$tellraw @p[tag=storagepots.sherd] [{text:"","color":"gray","italic":true},{"text":"The sherd whispers to you: This vessel contains... "},$(name),{"text":"... "},{"score":{"objective":"storagepots.total_item_count","name":"@s"}},{"text":"..."}]

@@ -15,9 +15,9 @@
     "id": "minecraft:item_frame",
     "count": 1,
     "components": {
-      "minecraft:item_name": "Storage Pot",
+      "minecraft:item_name": {"translate":"item.storagepots.storage_pot","fallback":"Storage Pot"},
       "minecraft:item_model": "minecraft:decorated_pot",
-      "minecraft:entity_data": {"id":"minecraft:item_frame","Invulnerable":true,"Invisible":true,"Silent":true,"Tags":["storagepots.storage_pot"]},
+      "minecraft:entity_data": {"id":"minecraft:item_frame","Invisible":true,"Silent":true,"Tags":["storagepots.storage_pot"]},
       "minecraft:enchantment_glint_override": true,
       "minecraft:custom_data": {"storagepots:pot":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}}
     }

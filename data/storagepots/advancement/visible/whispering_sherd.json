@@ -6,8 +6,8 @@
         "minecraft:enchantment_glint_override": true
       }
     },
-    "title": "Accursed Crockery",
-    "description": "Craft a Whispering Sherd",
+    "title": {"translate":"adv.storagepots.whispering_sherd.name","fallback":"Accursed Crockery"},
+    "description": {"translate":"adv.storagepots.whispering_sherd.description","fallback":"Craft a Whispering Sherd"},
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

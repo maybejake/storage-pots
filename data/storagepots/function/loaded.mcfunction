@@ -19,3 +19,5 @@ scoreboard objectives add storagepots.pot_use minecraft.used:minecraft.item_fram
 
 #sherd uses
 scoreboard objectives add storagepots.sherd_use minecraft.used:minecraft.warped_fungus_on_a_stick
+
+schedule function storagepots:tick_2 2t replace

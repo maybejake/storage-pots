@@ -1,1 +1,0 @@
-$data modify storage storagepots:temp output.motion set value [$(strength1),0.2,$(strength2)]

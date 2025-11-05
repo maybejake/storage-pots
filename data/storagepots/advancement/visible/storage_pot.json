@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:decorated_pot"
     },
-    "title": "Bigger on the Inside",
-    "description": "Craft a Storage Pot",
+    "title": {"translate":"adv.storagepots.storage_pot.name","fallback":"Bigger on the Inside"},
+    "description": {"translate":"adv.storagepots.storage_pot.description","fallback":"Craft a storage pot"},
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

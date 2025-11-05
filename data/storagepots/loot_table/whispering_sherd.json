@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"item.storagepots.whispering_sherd","fallback":"Whispering Sherd"},
+                "minecraft:item_model": "minecraft:skull_pottery_sherd",
+                "minecraft:custom_data": {"storagepots.sherd":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

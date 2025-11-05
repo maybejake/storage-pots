@@ -21,9 +21,8 @@ scoreboard objectives remove storagepots.pot_use
 scoreboard objectives remove storagepots.sherd_use
 
 #storage
-data remove storage storagepots:destroy strength1
-data remove storage storagepots:destroy strength2
 data remove storage storagepots:destroy item
+data remove storage storagepots:destroy lore
 
 data remove storage storagepots:temp pot_contents
 data remove storage storagepots:temp marker_contents
@@ -32,3 +31,5 @@ data remove storage storagepots:temp pot_component_check
 data remove storage storagepots:temp item_component_check
 data remove storage storagepots:temp output
 data remove storage storagepots:temp item_check
+
+schedule clear storagepots:tick_2
